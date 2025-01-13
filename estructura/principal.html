@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Cartas de Tarot</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Si tienes CSS -->
+</head>
+<body>
+  <header>
+    <h1>Buscador de Cartas de Tarot</h1>
+  </header>
+  
+  <main>
+    <input type="text" id="searchInput" placeholder="Escribe el nombre de la carta...">
+    <button onclick="searchCard()">Buscar</button>
+    <p id="errorMessage" style="color: red; display: none;">No se encontró la carta.</p>
+  </main>
+
+  <script src="buscador.js"></script> <!-- Asegúrate de que este archivo sea accesible -->
+</body>
+</html>
