@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: url('\cartas\rsc\TarotPamelaColmanSmith-Regular.ttf') format('truetype');
+}
+
+/* Establece el color de fondo de la página */
+body {
+  background-color: #ebd2be;  /* Color gris claro */
+  font-family: Arial, sans-serif;  /* Fuente para todo el texto */
+  margin: 0;  /* Elimina márgenes predeterminados */
+  padding: 0;  /* Elimina relleno predeterminado */
+}
+
+/* Estilo para el título h1 */
+h1 {
+  color: #000000;  /* Color del texto (gris oscuro) */
+  text-align: center;  /* Centra el título */
+  font-size: 2.5em;  /* Tamaño de fuente más grande */
+  margin-top: 50px;  /* Margen superior */
+  font-family: 'MiFuente';
+}
+
+/* Estilo para los párrafos */
+p {
+  color: #000000;  /* Color gris claro */
+  font-size: 1.2em;  /* Tamaño de fuente un poco más grande que el predeterminado */
+  line-height: 1.6;  /* Altura de línea (espacio entre las líneas del texto) */
+  text-align: justify;  /* Justifica el texto */
+  margin: 20px;  /* Márgenes alrededor de los párrafos */
+}
+
