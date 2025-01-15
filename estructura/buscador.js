@@ -1,35 +1,39 @@
+let cartas = {};
 
+fetch('/cartas.json') // Ruta del archivo JSON
+  .then(response => response.json())
+  .then(data => {
+    cartas = data; // Guardamos el JSON en la variable global "cartas"
+  })
+  .catch(error => {
+    console.error('Error al cargar el JSON:', error);
+  });
 
+// Función para realizar la búsqueda y redirigir
 function searchCard() {
-    // Obtener el valor del input
-    const cardName = document.getElementById('searchInput').value.trim();
+  let input = document.getElementById("searchInput").value.trim().toLowerCase();
   
-    // Mostrar un mensaje de error si no se ingresó un nombre
-    if (!cardName) {
-      document.getElementById('errorMessage').style.display = 'block';
-      document.getElementById('errorMessage').innerText = 'Por favor ingrese el nombre de la carta.';
-      return;
-    }
-  
-    // Ocultar el mensaje de error si hay un nombre
-    document.getElementById('errorMessage').style.display = 'none';
-  
-    // Hacer la solicitud al servidor para buscar la carta
-    fetch(`/buscar?name=${cardName}`)
-      .then(response => {
-        if (response.ok) {
-          // Si la carta existe, redirigir al archivo correspondiente
-          window.location.href = response.url;
-        } else {
-          // Si la carta no se encuentra, mostrar un mensaje de error
-          document.getElementById('errorMessage').style.display = 'block';
-          document.getElementById('errorMessage').innerText = 'No se encontró la carta.';
-        }
-      })
-      .catch(error => {
-        console.error('Error al buscar la carta:', error);
-        document.getElementById('errorMessage').style.display = 'block';
-        document.getElementById('errorMessage').innerText = 'Hubo un error en la búsqueda.';
-      });
+  if (cartas[input]) {
+    // Redirigir a detalle.html pasando el nombre de la carta como parámetro
+    window.location.href = `detalle.html?carta=${encodeURIComponent(input)}`;
+  } else {
+    alert("Carta no encontrada.");
   }
-  
+}
+
+function probarSuerte() {
+  // Verifica si el archivo JSON está cargado
+  if (Object.keys(cartas).length === 0) {
+    alert("Aún no se han cargado las cartas.");
+    return;
+  }
+
+  // Extrae las claves de las cartas (nombres de las cartas)
+  const clavesCartas = Object.keys(cartas);
+
+  // Escoge aleatoriamente una carta de entre las claves
+  const cartaAleatoria = clavesCartas[Math.floor(Math.random() * clavesCartas.length)];
+
+  // Redirige a la página de la carta seleccionada
+  window.location.href = `detalle.html?carta=${encodeURIComponent(cartaAleatoria)}`;
+}

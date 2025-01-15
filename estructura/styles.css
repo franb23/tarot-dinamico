@@ -1,31 +1,121 @@
+/* Fuentes personalizadas */
 @font-face {
   font-family: 'MiFuente';
-  src: url('\cartas\rsc\TarotPamelaColmanSmith-Regular.ttf') format('truetype');
+  src: url('Achemost.otf') format('truetype');
 }
 
-/* Establece el color de fondo de la página */
-body {
-  background-color: #ebd2be;  /* Color gris claro */
-  font-family: Arial, sans-serif;  /* Fuente para todo el texto */
-  margin: 0;  /* Elimina márgenes predeterminados */
-  padding: 0;  /* Elimina relleno predeterminado */
-}
-
-/* Estilo para el título h1 */
-h1 {
-  color: #000000;  /* Color del texto (gris oscuro) */
-  text-align: center;  /* Centra el título */
-  font-size: 2.5em;  /* Tamaño de fuente más grande */
-  margin-top: 50px;  /* Margen superior */
+.miFuente {
   font-family: 'MiFuente';
 }
 
-/* Estilo para los párrafos */
-p {
-  color: #000000;  /* Color gris claro */
-  font-size: 1.2em;  /* Tamaño de fuente un poco más grande que el predeterminado */
-  line-height: 1.6;  /* Altura de línea (espacio entre las líneas del texto) */
-  text-align: justify;  /* Justifica el texto */
-  margin: 20px;  /* Márgenes alrededor de los párrafos */
+/* Reset de márgenes y rellenos, y color de fondo general */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Fondo de la página en color claro */
 }
 
+/* Estilo del contenedor principal (el área con el buscador) */
+main {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  background-color: #ecd9d9; /* Fondo suave para el área principal */
+  min-height: 80vh; /* Al menos el 80% de la altura de la pantalla */
+  padding: 20px 0; /* Espaciado vertical para que no quede pegado al borde */
+}
+
+/* Estilo para el contenedor del buscador */
+.contenedor-buscador {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  max-width: 600px; /* No más grande de 600px */
+  padding: 10px;
+  border: 2px solid #2c242c; /* Borde oscuro */
+  border-radius: 15px; /* Bordes redondeados */
+  background-color: #9e8a7a; /* Fondo cálido para el buscador */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columna */
+  gap: 20px; /* Espaciado entre los elementos dentro del contenedor */
+}
+
+/* Barra de búsqueda */
+#searchInput {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #2c242c;
+}
+
+/* Botones personalizados */
+.btn {
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+/* Estilos para los botones */
+.btn:hover {
+  background-color: #552555cc; /* Cambio de color en hover */
+}
+
+.btn {
+  background-color: #2c242c; /* Color de fondo oscuro para los botones */
+  color: white;
+  border: none; /* Sin borde por defecto */
+}
+
+.btn:focus {
+  outline: none; /* Eliminar el contorno al hacer click */
+}
+
+/* Botones de "Quiero probar suerte" */
+button.btn:nth-child(2) {
+  background-color: #552555cc; /* Fondo morado oscuro para este botón */
+}
+
+button.btn:nth-child(2):hover {
+  background-color: #9e5d7b; /* Fondo morado claro al pasar el ratón */
+}
+
+/* Estilo de los títulos */
+h1.miFuente {
+  text-align: center;
+  color: #2c242c; /* Color oscuro para los títulos */
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 10px; /* Reduce el margen superior */
+  padding-top: 20px;
+}
+
+
+h2.miFuente {
+  text-align: center;
+  color: #2c242c; /* Color oscuro para los títulos */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor de la sección "Haz una pregunta" */
+.haz-pregunta-container {
+  display: flex;
+  flex-direction: column; /* Coloca los botones uno debajo del otro */
+  align-items: center; /* Centra los botones en el contenedor */
+  text-align: center; /* Asegura que el texto esté centrado */
+  margin-top: 30px;
+}
+
+/* Espaciado entre los botones */
+.haz-pregunta-container button {
+  margin: 10px 0; /* Separación vertical entre los botones */
+}
+
+/* Estilo para el mensaje de error */
+#errorMessage {
+  color: rgb(160, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  display: none; /* Se oculta por defecto */
+  margin-top: 5px;
+}

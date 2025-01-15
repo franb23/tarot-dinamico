@@ -1,0 +1,554 @@
+{
+  "el loco": {
+      "id": "00",
+      "imagen": "arcanos_mayores/00.jpg",
+      "significado": "El Loco es una carta que representa la libertad, los nuevos comienzos y la aventura sin restricciones.",
+      "significadoInvertido": "En su posición invertida, El Loco puede representar impulsividad, imprudencia o una sensación de estar perdido.",
+      "siNo": "La carta indica un 'Sí', aunque es importante reflexionar sobre los riesgos."
+  },
+  "el mago": {
+      "id": "01",
+      "imagen": "arcanos_mayores/01.jpg",
+      "significado": "El Mago simboliza la habilidad, el poder de la manifestación y la capacidad para transformar la realidad.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir engaños, falta de habilidades o un abuso del poder.",
+      "siNo": "La carta indica un 'Sí', pero con advertencia sobre la necesidad de ser cauteloso."
+  },
+  "la sacerdotisa": {
+      "id": "02",
+      "imagen": "arcanos_mayores/02.jpg",
+      "significado": "La Sacerdotisa representa la intuición, el misterio y la conexión con el inconsciente.",
+      "significadoInvertido": "Invertida, puede sugerir una desconexión con la intuición o secretos que permanecen ocultos.",
+      "siNo": "La carta indica un 'Sí', pero con cautela y la necesidad de introspección."
+  },
+  "la emperatriz": {
+      "id": "03",
+      "imagen": "arcanos_mayores/03.jpg",
+      "significado": "La Emperatriz simboliza la abundancia, la creatividad y la fertilidad en todos los aspectos.",
+      "significadoInvertido": "En posición invertida, puede indicar falta de creatividad, desequilibrio o desapego de lo emocional.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que es importante nutrir y cuidar lo que se inicia."
+  },
+  "el emperador": {
+      "id": "04",
+      "imagen": "arcanos_mayores/04.jpg",
+      "significado": "El Emperador representa la autoridad, el orden y el control sobre las circunstancias.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir abuso de poder, control excesivo o una falta de disciplina.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de ser firme y organizado."
+  },
+  "el sacerdote": {
+      "id": "05",
+      "imagen": "arcanos_mayores/05.jpg",
+      "significado": "El Sacerdote simboliza la sabiduría, la tradición y la moralidad.",
+      "significadoInvertido": "Invertida, puede indicar rigidez, dogmatismo o la falta de una guía espiritual clara.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de ser flexible y abierto."
+  },
+  "los enamorados": {
+      "id": "06",
+      "imagen": "arcanos_mayores/06.jpg",
+      "significado": "Los Enamorados representan decisiones importantes, relaciones y la armonía en las elecciones amorosas.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir indecisión, falta de armonía o la necesidad de tomar decisiones difíciles.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de no dejarse influir demasiado por las emociones."
+  },
+  "el carro": {
+      "id": "07",
+      "imagen": "arcanos_mayores/07.jpg",
+      "significado": "El Carro simboliza la victoria, el control y el impulso hacia el éxito.",
+      "significadoInvertido": "Invertida, esta carta sugiere falta de control, derrotas o fallos en la planificación.",
+      "siNo": "La carta indica un 'Sí', pero con advertencia de la necesidad de enfoque."
+  },
+  "la fuerza": {
+      "id": "08",
+      "imagen": "arcanos_mayores/08.jpg",
+      "significado": "La Fuerza simboliza el coraje, la paciencia y la habilidad para superar obstáculos.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir debilidad, falta de autocontrol o la necesidad de enfrentar miedos internos.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de ser valiente y perseverante."
+  },
+  "el ermitaño": {
+      "id": "09",
+      "imagen": "arcanos_mayores/09.jpg",
+      "significado": "El Ermitaño representa la introspección, la sabiduría interior y el aislamiento temporal para encontrar respuestas.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir soledad innecesaria, aislamiento o una desconexión de uno mismo.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de reflexionar profundamente antes de actuar."
+  },
+  "la rueda": {
+      "id": "10",
+      "imagen": "arcanos_mayores/10.jpg",
+      "significado": "La Rueda de la Fortuna simboliza los ciclos de la vida, la suerte y el destino.",
+      "significadoInvertido": "Invertida, esta carta puede indicar que se está resistiendo al cambio o se está atrapado en un ciclo negativo.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de aceptar los altibajos de la vida."
+  },
+  "la justicia": {
+      "id": "11",
+      "imagen": "arcanos_mayores/11.jpg",
+      "significado": "La Justicia simboliza el equilibrio, la verdad y la imparcialidad.",
+      "significadoInvertido": "Invertida, esta carta sugiere injusticia, desequilibrio o falta de responsabilidad.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de ser justo y equilibrado."
+  },
+  "el colgado": {
+      "id": "12",
+      "imagen": "arcanos_mayores/12.jpg",
+      "significado": "El Colgado representa la necesidad de sacrificio, pausa y una nueva perspectiva.",
+      "significadoInvertido": "Invertida, esta carta puede indicar resistencia al cambio o la falta de visión clara.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de soltar y ver las cosas desde otra perspectiva."
+  },
+  "la muerte": {
+      "id": "13",
+      "imagen": "arcanos_mayores/13.jpg",
+      "significado": "La Muerte simboliza el final de una etapa y el comienzo de una nueva.",
+      "significadoInvertido": "Invertida, puede sugerir una resistencia al cambio o el miedo al final.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que el cambio es necesario para el crecimiento."
+  },
+  "la templanza": {
+      "id": "14",
+      "imagen": "arcanos_mayores/14.jpg",
+      "significado": "La Templanza representa el equilibrio, la armonía y la moderación.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir excesos, desequilibrio o falta de armonía.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de mantener la calma y el equilibrio."
+  },
+  "el diablo": {
+      "id": "15",
+      "imagen": "arcanos_mayores/15.jpg",
+      "significado": "El Diablo representa las tentaciones, los miedos y las ataduras que nos limitan.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir liberación de las cadenas o la superación de los miedos.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de liberarse de las restricciones."
+  },
+  "la torre": {
+      "id": "16",
+      "imagen": "arcanos_mayores/16.jpg",
+      "significado": "La Torre simboliza la ruptura, la destrucción de estructuras viejas y la revelación de la verdad.",
+      "significadoInvertido": "Invertida, puede indicar una crisis inminente o la caída de algo ya debilitado.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que el cambio será drástico."
+  },
+  "la estrella": {
+      "id": "17",
+      "imagen": "arcanos_mayores/17.jpg",
+      "significado": "La Estrella representa la esperanza, la inspiración y la curación.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir desesperanza, falta de dirección o la necesidad de encontrar la luz interior.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que es necesario mantener la fe."
+  },
+  "la luna": {
+      "id": "18",
+      "imagen": "arcanos_mayores/18.jpg",
+      "significado": "La Luna simboliza la ilusión, los sueños y la confusión.",
+      "significadoInvertido": "Invertida, esta carta sugiere claridad o la resolución de engaños.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que la verdad aún no está clara."
+  },
+  "el sol": {
+      "id": "19",
+      "imagen": "arcanos_mayores/19.jpg",
+      "significado": "El Sol simboliza la claridad, el éxito y la alegría.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir falta de claridad o retrasos en los logros.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de tener paciencia."
+  },
+  "el juicio": {
+      "id": "20",
+      "imagen": "arcanos_mayores/20.jpg",
+      "significado": "El Juicio simboliza el renacimiento, la transformación y la toma de decisiones importantes.",
+      "significadoInvertido": "Invertida, puede sugerir la falta de cambios o la resistencia a la transformación.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que el juicio será crucial."
+  },
+  "el mundo": {
+      "id": "21",
+      "imagen": "arcanos_mayores/21.jpg",
+      "significado": "El Mundo simboliza la realización, el logro de metas y la armonía global.",
+      "significadoInvertido": "Invertida, sugiere la falta de cierre o la sensación de incompletitud.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que aún queda trabajo por hacer."
+  },
+    "uno de espadas": {
+      "id": "uno de espadas",
+      "imagen": "arcanos_menores/espadas/01.jpg",
+      "significado": "El As de Espadas simboliza claridad mental, nuevas ideas y cortes decisivos.",
+      "significadoInvertido": "Invertida, sugiere confusión mental, falta de claridad o bloqueos en la comunicación.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de pensar con claridad."
+    },
+    "dos de espadas": {
+      "id": "dos de espadas",
+      "imagen": "arcanos_menores/espadas/02.jpg",
+      "significado": "El Dos de Espadas simboliza la indecisión, el conflicto interno y la necesidad de tomar una decisión.",
+      "significadoInvertido": "Invertida, sugiere la resolución de un conflicto o la toma de una decisión necesaria.",
+      "siNo": "La carta indica un 'No', ya que la decisión aún no se ha tomado."
+    },
+    "tres de espadas": {
+      "id": "tres de espadas",
+      "imagen": "arcanos_menores/espadas/03.jpg",
+      "significado": "El Tres de Espadas simboliza el dolor emocional, la traición y el sufrimiento por una ruptura.",
+      "significadoInvertido": "Invertida, sugiere la superación del dolor y la recuperación de una situación dolorosa.",
+      "siNo": "La carta indica un 'No', sugiriendo dolor o separación temporal."
+    },
+    "cuatro de espadas": {
+      "id": "cuatro de espadas",
+      "imagen": "arcanos_menores/espadas/04.jpg",
+      "significado": "El Cuatro de Espadas simboliza el descanso, la reflexión y la necesidad de hacer una pausa.",
+      "significadoInvertido": "Invertida, sugiere que la pausa ha terminado o que se necesita acción para sanar.",
+      "siNo": "La carta indica un 'No', pero con el consejo de tomarse un tiempo para descansar."
+    },
+    "cinco de espadas": {
+      "id": "cinco de espadas",
+      "imagen": "arcanos_menores/espadas/05.jpg",
+      "significado": "El Cinco de Espadas representa conflictos, derrotas y la necesidad de luchar por la verdad.",
+      "significadoInvertido": "Invertida, puede indicar el final de un conflicto, pero con la necesidad de resolver las consecuencias.",
+      "siNo": "La carta indica un 'No', sugiriendo que los conflictos aún no se han resuelto."
+    },
+    "seis de espadas": {
+      "id": "seis de espadas",
+      "imagen": "arcanos_menores/espadas/06.jpg",
+      "significado": "El Seis de Espadas simboliza el viaje, la transición y la búsqueda de la paz mental.",
+      "significadoInvertido": "Invertida, sugiere dificultades para superar obstáculos o una transición incompleta.",
+      "siNo": "La carta indica un 'Sí', con la advertencia de que el viaje puede no ser fácil."
+    },
+    "siete de espadas": {
+      "id": "siete de espadas",
+      "imagen": "arcanos_menores/espadas/07.jpg",
+      "significado": "El Siete de Espadas simboliza el engaño, el robo o la necesidad de actuar con cautela.",
+      "significadoInvertido": "Invertida, puede sugerir que los secretos han salido a la luz o que la verdad prevalece.",
+      "siNo": "La carta indica un 'No', sugiriendo que algo no está siendo honesto."
+    },
+    "ocho de espadas": {
+      "id": "ocho de espadas",
+      "imagen": "arcanos_menores/espadas/08.jpg",
+      "significado": "El Ocho de Espadas representa la limitación, el miedo y la sensación de estar atrapado.",
+      "significadoInvertido": "Invertida, sugiere liberación, superación del miedo y la habilidad para liberarse de restricciones.",
+      "siNo": "La carta indica un 'No', pero con la posibilidad de superar las limitaciones."
+    },
+    "nueve de espadas": {
+      "id": "nueve de espadas",
+      "imagen": "arcanos_menores/espadas/09.jpg",
+      "significado": "El Nueve de Espadas simboliza la ansiedad, el remordimiento y las preocupaciones nocturnas.",
+      "significadoInvertido": "Invertida, sugiere alivio de la ansiedad, superación de los miedos o la resolución de preocupaciones.",
+      "siNo": "La carta indica un 'No', sugiriendo que las preocupaciones aún están presentes."
+    },
+    "diez de espadas": {
+      "id": "diez de espadas",
+      "imagen": "arcanos_menores/espadas/10.jpg",
+      "significado": "El Diez de Espadas simboliza el final doloroso de una situación, la traición y la pérdida.",
+      "significadoInvertido": "Invertida, puede indicar la recuperación tras un golpe emocional o la aceptación de una situación difícil.",
+      "siNo": "La carta indica un 'No', sugiriendo que el dolor aún no ha pasado."
+    },
+    "paje de espadas": {
+      "id": "paje de espadas",
+      "imagen": "arcanos_menores/espadas/11paje.jpg",
+      "significado": "El Paje de Espadas simboliza la curiosidad, la vigilancia y la búsqueda de la verdad.",
+      "significadoInvertido": "Invertida, sugiere engaños, chismes o una falta de claridad en la comunicación.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que debes estar alerta."
+    },
+    "caballero de espadas": {
+      "id": "caballero de espadas",
+      "imagen": "arcanos_menores/espadas/12caballero.jpg",
+      "significado": "El Caballero de Espadas simboliza la acción decidida, la agresividad y la lucha por la justicia.",
+      "significadoInvertido": "Invertida, puede sugerir imprudencia, falta de pensamiento o conflictos innecesarios.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de evitar ser impulsivo o agresivo."
+    },
+    "reina de espadas": {
+      "id": "reina de espadas",
+      "imagen": "arcanos_menores/espadas/13reina.jpg",
+      "significado": "La Reina de Espadas simboliza la inteligencia, la claridad mental y el uso de la lógica.",
+      "significadoInvertido": "Invertida, puede sugerir frialdad, manipulación o falta de empatía.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de usar la razón y no las emociones."
+    },
+    "rey de espadas": {
+      "id": "rey de espadas",
+      "imagen": "arcanos_menores/espadas/14rey.jpg",
+      "significado": "El Rey de Espadas simboliza la autoridad, el liderazgo y el dominio de la mente y la comunicación.",
+      "significadoInvertido": "Invertida, puede sugerir abuso de poder, crueldad o falta de sinceridad.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de ser justo y sabio en las decisiones."
+    },
+
+"uno de bastos": {
+  "id": "uno de bastos",
+  "imagen": "arcanos_menores/bastos/01.jpg",
+  "significado": "El As de Bastos simboliza un nuevo comienzo lleno de energía, creatividad y potencial.",
+  "significadoInvertido": "Invertida, sugiere falta de dirección, bloqueos creativos o el inicio de un proyecto que no se concreta.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de mantener el enfoque en nuevos proyectos."
+},
+"dos de bastos": {
+  "id": "dos de bastos",
+  "imagen": "arcanos_menores/bastos/02.jpg",
+  "significado": "El Dos de Bastos simboliza la planificación, la toma de decisiones y la preparación para nuevos desafíos.",
+  "significadoInvertido": "Invertida, sugiere falta de planificación, indecisión o miedo al futuro.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de tomar decisiones firmes."
+},
+"tres de bastos": {
+  "id": "tres de bastos",
+  "imagen": "arcanos_menores/bastos/03.jpg",
+  "significado": "El Tres de Bastos simboliza la expansión, la visión a largo plazo y el inicio de nuevos proyectos.",
+  "significadoInvertido": "Invertida, sugiere retrasos, falta de progreso o problemas en la implementación de planes.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de que los resultados pueden demorar."
+},
+"cuatro de bastos": {
+  "id": "cuatro de bastos",
+  "imagen": "arcanos_menores/bastos/04.jpg",
+  "significado": "El Cuatro de Bastos simboliza la estabilidad, el éxito y la celebración de logros.",
+  "significadoInvertido": "Invertida, puede sugerir inestabilidad, falta de celebración o conflicto en el hogar.",
+  "siNo": "La carta indica un 'Sí', pero con el consejo de buscar la estabilidad y la armonía."
+},
+"cinco de bastos": {
+  "id": "cinco de bastos",
+  "imagen": "arcanos_menores/bastos/05.jpg",
+  "significado": "El Cinco de Bastos representa la competencia, los desafíos y la lucha por sobresalir.",
+  "significadoInvertido": "Invertida, sugiere evitar conflictos innecesarios o la superación de obstáculos.",
+  "siNo": "La carta indica un 'No', sugiriendo que los conflictos aún no se han resuelto."
+},
+"seis de bastos": {
+  "id": "seis de bastos",
+  "imagen": "arcanos_menores/bastos/06.jpg",
+  "significado": "El Seis de Bastos simboliza el éxito, el reconocimiento y el logro de metas.",
+  "significadoInvertido": "Invertida, sugiere la falta de reconocimiento o problemas para alcanzar el éxito.",
+  "siNo": "La carta indica un 'Sí', pero con el desafío de mantener la humildad."
+},
+"siete de bastos": {
+  "id": "siete de bastos",
+  "imagen": "arcanos_menores/bastos/07.jpg",
+  "significado": "El Siete de Bastos simboliza la defensa de tus creencias, la competencia y el coraje para enfrentar desafíos.",
+  "significadoInvertido": "Invertida, sugiere que puedes estar perdiendo terreno o siendo superado por la competencia.",
+  "siNo": "La carta indica un 'No', sugiriendo que debes prepararte mejor."
+},
+"ocho de bastos": {
+  "id": "ocho de bastos",
+  "imagen": "arcanos_menores/bastos/08.jpg",
+  "significado": "El Ocho de Bastos simboliza la rapidez, el avance y la resolución de problemas rápidamente.",
+  "significadoInvertido": "Invertida, sugiere retrasos, falta de acción o obstáculos en el camino.",
+  "siNo": "La carta indica un 'Sí', pero los resultados llegarán más lentamente de lo esperado."
+},
+"nueve de bastos": {
+  "id": "nueve de bastos",
+  "imagen": "arcanos_menores/bastos/09.jpg",
+  "significado": "El Nueve de Bastos simboliza la resistencia, la perseverancia y la lucha contra la adversidad.",
+  "significadoInvertido": "Invertida, puede sugerir agotamiento, falta de motivación o la sensación de estar atrapado.",
+  "siNo": "La carta indica un 'No', sugiriendo que no estás listo para enfrentar más desafíos."
+},
+"diez de bastos": {
+  "id": "diez de bastos",
+  "imagen": "arcanos_menores/bastos/10.jpg",
+  "significado": "El Diez de Bastos simboliza la carga, el estrés y la necesidad de liberar responsabilidades.",
+  "significadoInvertido": "Invertida, sugiere la liberación de cargas o la necesidad de delegar responsabilidades.",
+  "siNo": "La carta indica un 'No', sugiriendo que aún estás asumiendo demasiadas responsabilidades."
+},
+"paje de bastos": {
+  "id": "paje de bastos",
+  "imagen": "arcanos_menores/bastos/11paje.jpg",
+  "significado": "El Paje de Bastos simboliza la curiosidad, el inicio de nuevos proyectos y la exploración.",
+  "significadoInvertido": "Invertida, sugiere la falta de dirección, desinterés o falta de acción.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de que debes estar listo para actuar."
+},
+"caballero de bastos": {
+  "id": "caballero de bastos",
+  "imagen": "arcanos_menores/bastos/12caballero.jpg",
+  "significado": "El Caballero de Bastos simboliza la acción rápida, la energía y la pasión por nuevos desafíos.",
+  "significadoInvertido": "Invertida, puede sugerir imprudencia, falta de dirección o conflicto impulsivo.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de actuar con cautela."
+},
+"reina de bastos": {
+  "id": "reina de bastos",
+  "imagen": "arcanos_menores/bastos/13reina.jpg",
+  "significado": "La Reina de Bastos simboliza la confianza, la independencia y el liderazgo.",
+  "significadoInvertido": "Invertida, puede sugerir falta de confianza, inseguridad o manipulación.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de fortalecer tu confianza."
+},
+"rey de bastos": {
+  "id": "rey de bastos",
+  "imagen": "arcanos_menores/bastos/14rey.jpg",
+  "significado": "El Rey de Bastos simboliza el liderazgo, la visión y la capacidad para inspirar a otros.",
+  "significadoInvertido": "Invertida, puede sugerir abuso de poder, impulsividad o falta de control.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de no dejarse llevar por impulsos."
+},
+
+"uno de copas": {
+  "id": "uno de copas",
+  "imagen": "arcanos_menores/copas/01.jpg",
+  "significado": "El As de Copas simboliza el amor, la emoción y la apertura emocional.",
+  "significadoInvertido": "Invertida, sugiere la falta de conexión emocional, bloqueo afectivo o decepción en el amor.",
+  "siNo": "La carta indica un 'Sí', con la advertencia de que debes abrirte emocionalmente."
+},
+"dos de copas": {
+  "id": "dos de copas",
+  "imagen": "arcanos_menores/copas/02.jpg",
+  "significado": "El Dos de Copas simboliza la unión, la armonía y las relaciones equilibradas.",
+  "significadoInvertido": "Invertida, sugiere desarmonía, ruptura o conflictos en una relación.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de que debe haber un equilibrio mutuo."
+},
+"tres de copas": {
+  "id": "tres de copas",
+  "imagen": "arcanos_menores/copas/03.jpg",
+  "significado": "El Tres de Copas simboliza la celebración, la amistad y el apoyo emocional.",
+  "significadoInvertido": "Invertida, puede sugerir aislamiento, falta de apoyo o conflictos en la amistad.",
+  "siNo": "La carta indica un 'Sí', pero con el consejo de disfrutar con los demás."
+},
+"cuatro de copas": {
+  "id": "cuatro de copas",
+  "imagen": "arcanos_menores/copas/04.jpg",
+  "significado": "El Cuatro de Copas simboliza la reflexión, la insatisfacción y la desconexión emocional.",
+  "significadoInvertido": "Invertida, sugiere la apertura a nuevas oportunidades y la superación de la apatía.",
+  "siNo": "La carta indica un 'No', sugiriendo que aún te falta encontrar satisfacción."
+},
+"cinco de copas": {
+  "id": "cinco de copas",
+  "imagen": "arcanos_menores/copas/05.jpg",
+  "significado": "El Cinco de Copas simboliza la tristeza, el arrepentimiento y la pérdida emocional.",
+  "significadoInvertido": "Invertida, sugiere la superación de la tristeza y el aprendizaje de los errores del pasado.",
+  "siNo": "La carta indica un 'No', sugiriendo que la tristeza aún persiste."
+},
+"seis de copas": {
+  "id": "seis de copas",
+  "imagen": "arcanos_menores/copas/06.jpg",
+  "significado": "El Seis de Copas simboliza la nostalgia, los recuerdos y el reencuentro con el pasado.",
+  "significadoInvertido": "Invertida, puede sugerir estar atrapado en el pasado o aferrarse a recuerdos que no permiten avanzar.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de que no te quedes anclado en lo que ya pasó."
+},
+"7 de copas": {
+  "id": "7 de copas",
+  "imagen": "arcanos_menores/copas/07.jpg",
+  "significado": "El Siete de Copas simboliza la fantasía, las ilusiones y la necesidad de tomar decisiones claras.",
+  "significadoInvertido": "Invertida, sugiere que las ilusiones se están disipando y que es el momento de elegir entre las opciones disponibles.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de que es necesario ver las opciones de manera realista."
+},
+"8 de copas": {
+  "id": "8 de copas",
+  "imagen": "arcanos_menores/copas/08.jpg",
+  "significado": "El Ocho de Copas simboliza la renuncia a algo emocionalmente insatisfactorio y la búsqueda de algo más profundo.",
+  "significadoInvertido": "Invertida, puede sugerir que alguien está evitando enfrentar una situación emocionalmente insatisfactoria.",
+  "siNo": "La carta indica un 'No', sugiriendo que es el momento de alejarse de lo que ya no sirve."
+},
+"9 de copas": {
+  "id": "9 de copas",
+  "imagen": "arcanos_menores/copas/09.jpg",
+  "significado": "El Nueve de Copas simboliza la satisfacción emocional, los deseos cumplidos y la gratitud.",
+  "significadoInvertido": "Invertida, puede sugerir descontento o insatisfacción con los logros emocionales alcanzados.",
+  "siNo": "La carta indica un 'Sí', sugiriendo que los deseos se están cumpliendo."
+},
+"10 de copas": {
+  "id": "10 de copas",
+  "imagen": "arcanos_menores/copas/10.jpg",
+  "significado": "El Diez de Copas simboliza la felicidad plena, la armonía familiar y el amor incondicional.",
+  "significadoInvertido": "Invertida, puede indicar tensiones en el hogar, desarmonía familiar o insatisfacción en el amor.",
+  "siNo": "La carta indica un 'Sí', sugiriendo felicidad y satisfacción en las relaciones."
+},
+"Paje de copas": {
+  "id": "Paje de copas",
+  "imagen": "arcanos_menores/copas/11paje.jpg",
+  "significado": "El Paje de Copas simboliza la creatividad, la intuición y los nuevos comienzos emocionales.",
+  "significadoInvertido": "Invertida, sugiere inmadurez emocional, falta de empatía o eludir enfrentar las emociones.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de ser sincero con uno mismo en cuanto a las emociones."
+},
+"Caballero de copas": {
+  "id": "Caballero de copas",
+  "imagen": "arcanos_menores/copas/12caballero.jpg",
+  "significado": "El Caballero de Copas simboliza la búsqueda de amor, la inspiración artística y el enfoque en las emociones.",
+  "significadoInvertido": "Invertida, puede sugerir ilusión, evasión o un enfoque romántico poco realista.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de actuar con madurez emocional y claridad."
+},
+"Reina de copas": {
+  "id": "Reina de copas",
+  "imagen": "arcanos_menores/copas/13reina.jpg",
+  "significado": "La Reina de Copas simboliza la empatía, el cuidado, la intuición y la armonía emocional.",
+  "significadoInvertido": "Invertida, puede indicar desbordamiento emocional, dependencia o manipulación emocional.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de mantener la calma y la sabiduría emocional."
+},
+"Rey de copas": {
+  "id": "Rey de copas",
+  "imagen": "arcanos_menores/copas/14rey.jpg",
+  "significado": "El Rey de Copas simboliza el dominio de las emociones, la sabiduría emocional y la capacidad para equilibrar los sentimientos.",
+  "significadoInvertido": "Invertida, puede sugerir la represión de las emociones, manipulación emocional o falta de control sobre los sentimientos.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de actuar con equilibrio emocional y justicia."
+},
+
+"1 de oros": {
+  "id": "1 de oros",
+  "imagen": "arcanos_menores/oros/01.jpg",
+  "significado": "El As de Oros simboliza nuevas oportunidades financieras, éxito material y crecimiento en el ámbito material.",
+  "significadoInvertido": "Invertida, sugiere la falta de oportunidades o la pérdida de una oportunidad importante.",
+  "siNo": "La carta indica un 'Sí', con la posibilidad de recibir una nueva oportunidad financiera."
+},
+"2 de oros": {
+  "id": "2 de oros",
+  "imagen": "arcanos_menores/oros/02.jpg",
+  "significado": "El Dos de Oros simboliza el equilibrio, la adaptación a los cambios y la gestión de recursos de manera efectiva.",
+  "significadoInvertido": "Invertida, sugiere dificultades para mantener el equilibrio o gestionar las finanzas de manera adecuada.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de gestionar cuidadosamente los recursos y las decisiones."
+},
+"3 de oros": {
+  "id": "3 de oros",
+  "imagen": "arcanos_menores/oros/03.jpg",
+  "significado": "El Tres de Oros simboliza la colaboración, el trabajo en equipo y la manifestación de habilidades para lograr el éxito.",
+  "significadoInvertido": "Invertida, puede sugerir falta de colaboración o esfuerzos no reconocidos.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de trabajar en equipo para obtener resultados."
+},
+"4 de oros": {
+  "id": "4 de oros",
+  "imagen": "arcanos_menores/oros/04.jpg",
+  "significado": "El Cuatro de Oros simboliza la seguridad material, la estabilidad y la necesidad de cuidar los recursos.",
+  "significadoInvertido": "Invertida, puede sugerir miedo a la pérdida, avaricia o una actitud demasiado centrada en lo material.",
+  "siNo": "La carta indica un 'No', sugiriendo la necesidad de soltar el control y confiar más en los demás."
+},
+"5 de oros": {
+  "id": "5 de oros",
+  "imagen": "arcanos_menores/oros/05.jpg",
+  "significado": "El Cinco de Oros simboliza la pobreza, la inseguridad financiera y la sensación de estar excluido o desprotegido.",
+  "significadoInvertido": "Invertida, sugiere la superación de dificultades materiales o la mejora de una situación financiera precaria.",
+  "siNo": "La carta indica un 'No', sugiriendo problemas financieros o una sensación de pérdida."
+},
+"6 de oros": {
+  "id": "6 de oros",
+  "imagen": "arcanos_menores/oros/06.jpg",
+  "significado": "El Seis de Oros simboliza el equilibrio en las finanzas, la generosidad y la ayuda mutua.",
+  "significadoInvertido": "Invertida, puede indicar desigualdad, falta de generosidad o problemas de deuda.",
+  "siNo": "La carta indica un 'Sí', sugiriendo que los recursos fluyen de manera equilibrada y justa."
+},
+"7 de oros": {
+  "id": "7 de oros",
+  "imagen": "arcanos_menores/oros/07.jpg",
+  "significado": "El Siete de Oros simboliza la paciencia, el trabajo constante y la espera de los frutos del esfuerzo.",
+  "significadoInvertido": "Invertida, sugiere que los esfuerzos no han dado los resultados esperados o la falta de paciencia para esperar los frutos.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de esperar el resultado de los esfuerzos realizados."
+},
+"8 de oros": {
+  "id": "8 de oros",
+  "imagen": "arcanos_menores/oros/08.jpg",
+  "significado": "El Ocho de Oros simboliza el trabajo arduo, la dedicación y la maestría en el desarrollo de habilidades.",
+  "significadoInvertido": "Invertida, sugiere falta de concentración, esfuerzo o dedicación en el trabajo.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de seguir trabajando con dedicación."
+},
+"9 de oros": {
+  "id": "9 de oros",
+  "imagen": "arcanos_menores/oros/09.jpg",
+  "significado": "El Nueve de Oros simboliza el éxito material, la independencia financiera y el disfrute de los logros alcanzados.",
+  "significadoInvertido": "Invertida, puede sugerir una falta de satisfacción con lo logrado o problemas de seguridad material.",
+  "siNo": "La carta indica un 'Sí', sugiriendo éxito y disfrute de los logros materiales."
+},
+"10 de oros": {
+  "id": "10 de oros",
+  "imagen": "arcanos_menores/oros/10.jpg",
+  "significado": "El Diez de Oros simboliza la riqueza, la prosperidad y el legado familiar.",
+  "significadoInvertido": "Invertida, puede indicar problemas financieros familiares o dificultades para mantener la estabilidad.",
+  "siNo": "La carta indica un 'Sí', sugiriendo estabilidad y prosperidad en el ámbito material."
+},
+"Paje de oros": {
+  "id": "Paje de oros",
+  "imagen": "arcanos_menores/oros/11paje.jpg",
+  "significado": "El Paje de Oros simboliza el comienzo de nuevos proyectos, la educación y la manifestación de ambiciones materiales.",
+  "significadoInvertido": "Invertida, puede sugerir falta de enfoque, procrastinación o fracaso en nuevos proyectos.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de estar enfocado y comprometido con los objetivos materiales."
+},
+"Caballero de oros": {
+  "id": "Caballero de oros",
+  "imagen": "arcanos_menores/oros/12caballero.jpg",
+  "significado": "El Caballero de Oros simboliza el trabajo constante, la responsabilidad y la dedicación a los objetivos materiales.",
+  "significadoInvertido": "Invertida, puede sugerir terquedad, falta de flexibilidad o estancamiento en el ámbito material.",
+  "siNo": "La carta indica un 'Sí', sugiriendo trabajo arduo y responsabilidad en los proyectos."
+},
+"Reina de oros": {
+  "id": "Reina de oros",
+  "imagen": "arcanos_menores/oros/13reina.jpg",
+  "significado": "La Reina de Oros simboliza la abundancia, la estabilidad financiera y la habilidad para cuidar de los demás.",
+  "significadoInvertido": "Invertida, sugiere una actitud materialista, la falta de cuidado por uno mismo o problemas en la seguridad material.",
+  "siNo": "La carta indica un 'Sí', pero con la necesidad de mantener el equilibrio entre lo material y lo emocional."
+},
+"Rey de oros": {
+  "id": "Rey de oros",
+  "imagen": "arcanos_menores/oros/14rey.jpg",
+  "significado": "El Rey de Oros simboliza la maestría en el manejo de los recursos materiales, el éxito financiero y la estabilidad.",
+  "significadoInvertido": "Invertida, puede indicar descontrol financiero, abuso de poder material o egoísmo.",
+  "siNo": "La carta indica un 'Sí', sugiriendo éxito material, pero con la necesidad de actuar con justicia y responsabilidad."
+}
+}
+
+
+
