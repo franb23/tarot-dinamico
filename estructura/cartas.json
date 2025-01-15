@@ -20,6 +20,13 @@
       "significadoInvertido": "Invertida, puede sugerir una desconexión con la intuición o secretos que permanecen ocultos.",
       "siNo": "La carta indica un 'Sí', pero con cautela y la necesidad de introspección."
   },
+  "la suma sacerdotisa": {
+      "id": "02",
+      "imagen": "arcanos_mayores/02.jpg",
+      "significado": "La Sacerdotisa representa la intuición, el misterio y la conexión con el inconsciente.",
+      "significadoInvertido": "Invertida, puede sugerir una desconexión con la intuición o secretos que permanecen ocultos.",
+      "siNo": "La carta indica un 'Sí', pero con cautela y la necesidad de introspección."
+  },
   "la emperatriz": {
       "id": "03",
       "imagen": "arcanos_mayores/03.jpg",
@@ -48,6 +55,13 @@
       "significadoInvertido": "Invertida, esta carta puede sugerir indecisión, falta de armonía o la necesidad de tomar decisiones difíciles.",
       "siNo": "La carta indica un 'Sí', pero con la advertencia de no dejarse influir demasiado por las emociones."
   },
+  "los amantes": {
+      "id": "06",
+      "imagen": "arcanos_mayores/06.jpg",
+      "significado": "Los Enamorados representan decisiones importantes, relaciones y la armonía en las elecciones amorosas.",
+      "significadoInvertido": "Invertida, esta carta puede sugerir indecisión, falta de armonía o la necesidad de tomar decisiones difíciles.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de no dejarse influir demasiado por las emociones."
+  },
   "el carro": {
       "id": "07",
       "imagen": "arcanos_mayores/07.jpg",
@@ -69,7 +83,7 @@
       "significadoInvertido": "Invertida, esta carta puede sugerir soledad innecesaria, aislamiento o una desconexión de uno mismo.",
       "siNo": "La carta indica un 'Sí', pero con la necesidad de reflexionar profundamente antes de actuar."
   },
-  "la rueda": {
+  "la rueda de la fortuna": {
       "id": "10",
       "imagen": "arcanos_mayores/10.jpg",
       "significado": "La Rueda de la Fortuna simboliza los ciclos de la vida, la suerte y el destino.",
@@ -160,6 +174,13 @@
       "significadoInvertido": "Invertida, sugiere confusión mental, falta de claridad o bloqueos en la comunicación.",
       "siNo": "La carta indica un 'Sí', pero con la necesidad de pensar con claridad."
     },
+    "as de espadas": {
+      "id": "uno de espadas",
+      "imagen": "arcanos_menores/espadas/01.jpg",
+      "significado": "El As de Espadas simboliza claridad mental, nuevas ideas y cortes decisivos.",
+      "significadoInvertido": "Invertida, sugiere confusión mental, falta de claridad o bloqueos en la comunicación.",
+      "siNo": "La carta indica un 'Sí', pero con la necesidad de pensar con claridad."
+    },
     "dos de espadas": {
       "id": "dos de espadas",
       "imagen": "arcanos_menores/espadas/02.jpg",
@@ -230,6 +251,13 @@
       "significadoInvertido": "Invertida, sugiere engaños, chismes o una falta de claridad en la comunicación.",
       "siNo": "La carta indica un 'Sí', pero con la advertencia de que debes estar alerta."
     },
+    "sota de espadas": {
+      "id": "paje de espadas",
+      "imagen": "arcanos_menores/espadas/11paje.jpg",
+      "significado": "El Paje de Espadas simboliza la curiosidad, la vigilancia y la búsqueda de la verdad.",
+      "significadoInvertido": "Invertida, sugiere engaños, chismes o una falta de claridad en la comunicación.",
+      "siNo": "La carta indica un 'Sí', pero con la advertencia de que debes estar alerta."
+    },
     "caballero de espadas": {
       "id": "caballero de espadas",
       "imagen": "arcanos_menores/espadas/12caballero.jpg",
@@ -253,6 +281,13 @@
     },
 
 "uno de bastos": {
+  "id": "uno de bastos",
+  "imagen": "arcanos_menores/bastos/01.jpg",
+  "significado": "El As de Bastos simboliza un nuevo comienzo lleno de energía, creatividad y potencial.",
+  "significadoInvertido": "Invertida, sugiere falta de dirección, bloqueos creativos o el inicio de un proyecto que no se concreta.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de mantener el enfoque en nuevos proyectos."
+},
+"as de bastos": {
   "id": "uno de bastos",
   "imagen": "arcanos_menores/bastos/01.jpg",
   "significado": "El As de Bastos simboliza un nuevo comienzo lleno de energía, creatividad y potencial.",
@@ -329,6 +364,13 @@
   "significadoInvertido": "Invertida, sugiere la falta de dirección, desinterés o falta de acción.",
   "siNo": "La carta indica un 'Sí', pero con la advertencia de que debes estar listo para actuar."
 },
+"sota de bastos": {
+  "id": "paje de bastos",
+  "imagen": "arcanos_menores/bastos/11paje.jpg",
+  "significado": "El Paje de Bastos simboliza la curiosidad, el inicio de nuevos proyectos y la exploración.",
+  "significadoInvertido": "Invertida, sugiere la falta de dirección, desinterés o falta de acción.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de que debes estar listo para actuar."
+},
 "caballero de bastos": {
   "id": "caballero de bastos",
   "imagen": "arcanos_menores/bastos/12caballero.jpg",
@@ -352,6 +394,14 @@
 },
 
 "uno de copas": {
+  "id": "uno de copas",
+  "imagen": "arcanos_menores/copas/01.jpg",
+  "significado": "El As de Copas simboliza el amor, la emoción y la apertura emocional.",
+  "significadoInvertido": "Invertida, sugiere la falta de conexión emocional, bloqueo afectivo o decepción en el amor.",
+  "siNo": "La carta indica un 'Sí', con la advertencia de que debes abrirte emocionalmente."
+},
+
+"as de copas": {
   "id": "uno de copas",
   "imagen": "arcanos_menores/copas/01.jpg",
   "significado": "El As de Copas simboliza el amor, la emoción y la apertura emocional.",
@@ -421,28 +471,35 @@
   "significadoInvertido": "Invertida, puede indicar tensiones en el hogar, desarmonía familiar o insatisfacción en el amor.",
   "siNo": "La carta indica un 'Sí', sugiriendo felicidad y satisfacción en las relaciones."
 },
-"Paje de copas": {
+"paje de copas": {
   "id": "Paje de copas",
   "imagen": "arcanos_menores/copas/11paje.jpg",
   "significado": "El Paje de Copas simboliza la creatividad, la intuición y los nuevos comienzos emocionales.",
   "significadoInvertido": "Invertida, sugiere inmadurez emocional, falta de empatía o eludir enfrentar las emociones.",
   "siNo": "La carta indica un 'Sí', pero con la advertencia de ser sincero con uno mismo en cuanto a las emociones."
 },
-"Caballero de copas": {
+"sota de copas": {
+  "id": "Paje de copas",
+  "imagen": "arcanos_menores/copas/11paje.jpg",
+  "significado": "El Paje de Copas simboliza la creatividad, la intuición y los nuevos comienzos emocionales.",
+  "significadoInvertido": "Invertida, sugiere inmadurez emocional, falta de empatía o eludir enfrentar las emociones.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de ser sincero con uno mismo en cuanto a las emociones."
+},
+"caballero de copas": {
   "id": "Caballero de copas",
   "imagen": "arcanos_menores/copas/12caballero.jpg",
   "significado": "El Caballero de Copas simboliza la búsqueda de amor, la inspiración artística y el enfoque en las emociones.",
   "significadoInvertido": "Invertida, puede sugerir ilusión, evasión o un enfoque romántico poco realista.",
   "siNo": "La carta indica un 'Sí', pero con la necesidad de actuar con madurez emocional y claridad."
 },
-"Reina de copas": {
+"reina de copas": {
   "id": "Reina de copas",
   "imagen": "arcanos_menores/copas/13reina.jpg",
   "significado": "La Reina de Copas simboliza la empatía, el cuidado, la intuición y la armonía emocional.",
   "significadoInvertido": "Invertida, puede indicar desbordamiento emocional, dependencia o manipulación emocional.",
   "siNo": "La carta indica un 'Sí', pero con la necesidad de mantener la calma y la sabiduría emocional."
 },
-"Rey de copas": {
+"rey de copas": {
   "id": "Rey de copas",
   "imagen": "arcanos_menores/copas/14rey.jpg",
   "significado": "El Rey de Copas simboliza el dominio de las emociones, la sabiduría emocional y la capacidad para equilibrar los sentimientos.",
@@ -451,6 +508,13 @@
 },
 
 "1 de oros": {
+  "id": "1 de oros",
+  "imagen": "arcanos_menores/oros/01.jpg",
+  "significado": "El As de Oros simboliza nuevas oportunidades financieras, éxito material y crecimiento en el ámbito material.",
+  "significadoInvertido": "Invertida, sugiere la falta de oportunidades o la pérdida de una oportunidad importante.",
+  "siNo": "La carta indica un 'Sí', con la posibilidad de recibir una nueva oportunidad financiera."
+},
+"as de oros": {
   "id": "1 de oros",
   "imagen": "arcanos_menores/oros/01.jpg",
   "significado": "El As de Oros simboliza nuevas oportunidades financieras, éxito material y crecimiento en el ámbito material.",
@@ -520,28 +584,35 @@
   "significadoInvertido": "Invertida, puede indicar problemas financieros familiares o dificultades para mantener la estabilidad.",
   "siNo": "La carta indica un 'Sí', sugiriendo estabilidad y prosperidad en el ámbito material."
 },
-"Paje de oros": {
+"paje de oros": {
   "id": "Paje de oros",
   "imagen": "arcanos_menores/oros/11paje.jpg",
   "significado": "El Paje de Oros simboliza el comienzo de nuevos proyectos, la educación y la manifestación de ambiciones materiales.",
   "significadoInvertido": "Invertida, puede sugerir falta de enfoque, procrastinación o fracaso en nuevos proyectos.",
   "siNo": "La carta indica un 'Sí', pero con la advertencia de estar enfocado y comprometido con los objetivos materiales."
 },
-"Caballero de oros": {
+"sota de oros": {
+  "id": "Paje de oros",
+  "imagen": "arcanos_menores/oros/11paje.jpg",
+  "significado": "El Paje de Oros simboliza el comienzo de nuevos proyectos, la educación y la manifestación de ambiciones materiales.",
+  "significadoInvertido": "Invertida, puede sugerir falta de enfoque, procrastinación o fracaso en nuevos proyectos.",
+  "siNo": "La carta indica un 'Sí', pero con la advertencia de estar enfocado y comprometido con los objetivos materiales."
+},
+"caballero de oros": {
   "id": "Caballero de oros",
   "imagen": "arcanos_menores/oros/12caballero.jpg",
   "significado": "El Caballero de Oros simboliza el trabajo constante, la responsabilidad y la dedicación a los objetivos materiales.",
   "significadoInvertido": "Invertida, puede sugerir terquedad, falta de flexibilidad o estancamiento en el ámbito material.",
   "siNo": "La carta indica un 'Sí', sugiriendo trabajo arduo y responsabilidad en los proyectos."
 },
-"Reina de oros": {
+"reina de oros": {
   "id": "Reina de oros",
   "imagen": "arcanos_menores/oros/13reina.jpg",
   "significado": "La Reina de Oros simboliza la abundancia, la estabilidad financiera y la habilidad para cuidar de los demás.",
   "significadoInvertido": "Invertida, sugiere una actitud materialista, la falta de cuidado por uno mismo o problemas en la seguridad material.",
   "siNo": "La carta indica un 'Sí', pero con la necesidad de mantener el equilibrio entre lo material y lo emocional."
 },
-"Rey de oros": {
+"rey de oros": {
   "id": "Rey de oros",
   "imagen": "arcanos_menores/oros/14rey.jpg",
   "significado": "El Rey de Oros simboliza la maestría en el manejo de los recursos materiales, el éxito financiero y la estabilidad.",
