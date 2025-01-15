@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre el Tarot</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="tiradas.css">
+  <style>
+    .tarot-container {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-top: 20px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    .tarot-card {
+      width: 100%;
+      border: 1px solid #ddd;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Configuración de la grilla de las cartas */
+  .tarot-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; /* Separación más pequeña entre las cartas */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Margen para alinear correctamente con el contenido */
+  }
+
+  /* Ajuste de la imagen dentro de la carta */
+  .tarot-card img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover; /* Asegura que las imágenes se ajusten al contenedor sin deformarse */
+  }
+
+    h3 {
+      color: #552555;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #552555cc;">
+    <a class="navbar-brand" href="../index.html">Tarot</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="tiradas.html">Tiradas personalizadas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="arcanos_mayores.html">Arcanos Mayores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="arcanos_menores.html">Arcanos Menores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre el Tarot</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Encabezado de la página -->
+  <header class="text-center mt-3">
+    <h1 class="miFuente">Sobre el Tarot</h1>
+    <h4 class="miFuente">Descubre el simbolismo y poder de las cartas</h4>
+  </header>
+
+  <!-- Contenedor con el contenido extenso sobre el tarot -->
+  <div class="tarot-container">
+    <p>
+      El tarot es una herramienta milenaria de autoconocimiento y reflexión. Se cree que su origen data del Renacimiento en Europa, aunque algunos estudios sugieren que sus raíces son aún más antiguas, vinculadas a antiguas culturas egipcias o chinas. El tarot se utiliza para conectar con el subconsciente y descubrir mensajes ocultos en las cartas, las cuales sirven como reflejos de la realidad y de los estados emocionales del consultante.
+    </p>
+
+    <h3>Los Arcanos Mayores</h3>
+    <p>
+      Los Arcanos Mayores están compuestos por 22 cartas, cada una con un simbolismo profundo y único. Estas cartas representan los grandes arquetipos de la vida humana y los momentos cruciales en el camino de la existencia. Entre las cartas más conocidas se encuentran "El Loco", "La Muerte", "El Sol" y "La Torre". Cada una de estas cartas tiene un significado diverso según el contexto en que se utilice, pero todas ellas están conectadas por un hilo común que nos habla de crecimiento, transformación y aprendizaje.
+    </p>
+    <p>
+      El tarot puede abordar cuestiones como el amor, el trabajo, la salud, los conflictos internos y externos. Los Arcanos Mayores, debido a su poder simbólico, suelen estar vinculados a eventos trascendentales en la vida del consultante, tales como cambios importantes, momentos de crisis o transformación.
+    </p>
+
+    <h3>Los Arcanos Menores</h3>
+    <p>
+      Los Arcanos Menores se dividen en cuatro palos: Bastos, Copas, Espadas y Oros. Cada palo refleja un aspecto diferente de la vida: los Bastos están relacionados con la acción y la creatividad, las Copas con las emociones y las relaciones, las Espadas con la mente y los conflictos, y los Oros con el dinero, la estabilidad y el trabajo. Estas cartas se utilizan en combinaciones con los Arcanos Mayores para profundizar en la interpretación de una tirada.
+    </p>
+    <p>
+      Cada palo se compone de 14 cartas, que incluyen números del 1 al 10 y las figuras de la corte: el Paje, el Caballo, la Reina y el Rey. Estas cartas no solo se utilizan para obtener respuestas concretas, sino que también reflejan el proceso personal que atraviesa el consultante a lo largo del tiempo.
+    </p>
+
+    <h3>¿Cómo funciona una tirada de tarot?</h3>
+    <p>
+      En una tirada de tarot, el lector de cartas utiliza una baraja y un patrón de disposición específico para interpretar el mensaje de las cartas. Las cartas se colocan de forma ordenada y, a través de sus símbolos y su posición, el lector conecta los significados de las cartas con la situación de la persona que consulta. Las cartas pueden responder preguntas directas o proporcionar una visión más general sobre el estado emocional, mental o espiritual del consultante.
+    </p>
+    <p>
+      Dependiendo del tipo de tirada, las cartas pueden indicar lo que está sucediendo en el presente, lo que podría ocurrir en el futuro, o qué lecciones pueden ser aprendidas de situaciones pasadas. Las tiradas pueden ser de una sola carta, o pueden ser más complejas, como la tirada de la Cruz Celta, que utiliza 10 cartas para dar una visión profunda sobre una pregunta o situación.
+    </p>
+
+    <h3>Tipos de Tiradas</h3>
+    <p>
+      Existen muchos tipos de tiradas, que varían en función de la pregunta del consultante o del enfoque que se desee darle a la lectura. Algunas de las tiradas más comunes son:
+    </p>
+    <ul>
+      <li><strong>Tirada de una carta:</strong> Ideal para respuestas rápidas o consultas sencillas.</li>
+      <li><strong>Tirada de tres cartas:</strong> Se utiliza para explorar la situación actual, los desafíos y el consejo.</li>
+      <li><strong>Cruz Celta:</strong> Una tirada detallada de 10 cartas que proporciona una visión profunda sobre cualquier situación.</li>
+      <li><strong>Tirada del amor:</strong> Enfocada en las relaciones personales, donde las cartas analizan el pasado, el presente y las influencias futuras.</li>
+    </ul>
+  </div>
+
+ 
+</body>
+</html>

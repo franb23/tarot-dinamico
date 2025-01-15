@@ -37,3 +37,7 @@ function probarSuerte() {
   // Redirige a la página de la carta seleccionada
   window.location.href = `detalle.html?carta=${encodeURIComponent(cartaAleatoria)}`;
 }
+
+
+
+

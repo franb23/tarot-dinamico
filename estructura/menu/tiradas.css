@@ -1,0 +1,31 @@
+/* Contenedor de la grilla */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 10px; /* Espacio entre las cartas */
+    justify-items: center; /* Centra las imágenes */
+    align-items: center; /* Centra las imágenes verticalmente */
+    background-color: none;
+  }
+  
+  /* Contenedor de cada carta */
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; /* No limitamos la altura */
+  }
+  
+  /* Estilo para cada imagen */
+  .tarot-card {
+    width: 100%; /* Ajusta el tamaño al contenedor */
+    max-width: 250px; /* Tamaño máximo de las cartas */
+    object-fit: cover; /* Asegura que las imágenes mantengan su proporción */
+    max-height: 200%;
+  }
+  
+  .tarot-card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  }
+  

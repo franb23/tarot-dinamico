@@ -3,63 +3,31 @@ const app = express();
 const path = require('path');
 const port = 3000;
 
-// Datos de las cartas
-const tarotCards = [
-    { name: "El Loco", file: "cartas/arcanos_mayores/00.html" },
-    { name: "El Mago", file: "cartas/arcanos_mayores/01.html" },
-    { name: "La Sacerdotisa", file: "cartas/arcanos_mayores/02.html" },
-    { name: "La Emperatriz", file: "cartas/arcanos_mayores/03.html" },
-    { name: "El Emperador", file: "cartas/arcanos_mayores/04.html" },
-    { name: "El Sumo Sacerdote", file: "cartas/arcanos_mayores/05.html" },
-    { name: "Los Enamorados", file: "cartas/arcanos_mayores/06.html" },
-    { name: "El Carro", file: "cartas/arcanos_mayores/07.html" },
-    { name: "La Justicia", file: "cartas/arcanos_mayores/08.html" },
-    { name: "El Ermitaño", file: "cartas/arcanos_mayores/09.html" },
-    { name: "La Rueda de la Fortuna", file: "cartas/arcanos_mayores/10.html" },
-    { name: "La Fuerza", file: "cartas/arcanos_mayores/11.html" },
-    { name: "El Colgado", file: "cartas/arcanos_mayores/12.html" },
-    { name: "La Muerte", file: "cartas/arcanos_mayores/13.html" },
-    { name: "La Templanza", file: "cartas/arcanos_mayores/14.html" },
-    { name: "El Diablo", file: "cartas/arcanos_mayores/15.html" },
-    { name: "La Torre", file: "cartas/arcanos_mayores/16.html" },
-    { name: "La Estrella", file: "cartas/arcanos_mayores/17.html" },
-    { name: "La Luna", file: "cartas/arcanos_mayores/18.html" },
-    { name: "El Sol", file: "cartas/arcanos_mayores/19.html" },
-    { name: "El Juicio", file: "cartas/arcanos_mayores/20.html" },
-    { name: "El Mundo", file: "cartas/arcanos_mayores/21.html" }
-];
-
 // Ruta para servir archivos estáticos desde la carpeta 'estructura'
 app.use(express.static(path.join(__dirname, 'estructura')));
 
-// Ruta para manejar las búsquedas
-app.get('/buscar', (req, res) => {
-    const cardName = req.query.name; // Obtiene el nombre de la carta desde la URL
+// Ruta para servir archivos estáticos desde la carpeta 'estructura/menu'
+app.use('/menu', express.static(path.join(__dirname, 'estructura', 'menu')));
 
-    // Verifica si el nombre fue proporcionado
-    if (!cardName) {
-        return res.status(400).send('El nombre de la carta es obligatorio');
-    }
-
-    // Busca la carta por su nombre
-    const card = tarotCards.find(c => c.name.toLowerCase() === cardName.toLowerCase());
-
-    if (card) {
-        // Redirige al archivo HTML correspondiente
-        res.redirect(`/${card.file}`);
-    } else {
-        // Si no encuentra la carta, muestra un mensaje de error
-        res.status(404).send('Carta no encontrada');
-    }
+// Rutas específicas para cada sección del menú
+app.get('/tiradas-personalizadas', (req, res) => {
+    res.sendFile(path.join(__dirname, 'estructura', 'menu', 'tiradas.html'));
 });
 
-// Ruta principal para cargar el archivo principal.html
+app.get('/arcanos-mayores', (req, res) => {
+    res.sendFile(path.join(__dirname, 'estructura', 'menu', 'arcanos_mayores.html'));
+});
+
+app.get('/arcanos-menores', (req, res) => {
+    res.sendFile(path.join(__dirname, 'estructura', 'menu', 'arcanos_menores.html'));
+});
+
+// Ruta principal para cargar el archivo index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'estructura', 'principal.html'));
+    res.sendFile(path.join(__dirname, 'estructura', 'index.html'));
 });
 
 // Inicia el servidor
 app.listen(port, () => {
     console.log(`Servidor escuchando en http://localhost:${port}`);
-
 });
