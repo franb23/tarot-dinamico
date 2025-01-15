@@ -12,12 +12,23 @@
 <body>
 
   <!-- Barra de navegación -->
-  <nav style="background-color: #552555cc; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
-    <a href="index.html" style="color: white; text-decoration: none; font-size: 18px; font-weight: bold;">Tarot</a>
-    <div>
-      <a href="/cartas/arcanos_mayores" style="color: white; text-decoration: none; margin-right: 15px;">Arcanos Mayores</a>
-      <a href="/cartas/arcanos_menores" style="color: white; text-decoration: none; margin-right: 15px;">Arcanos Menores</a>
-      <a href="/sobre" style="color: white; text-decoration: none;">Sobre el Tarot</a>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #552555cc;">
+    <a class="navbar-brand" href="index.html">Tarot</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/cartas/arcanos_mayores">Arcanos Mayores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/cartas/arcanos_menores">Arcanos Menores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/sobre">Sobre el Tarot</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
@@ -25,25 +36,21 @@
   <header class="text-center mt-5">
     <h1 class="miFuente">Buscador de Cartas de Tarot</h1>
   </header>
-  
 
   <!-- Barra de búsqueda -->
   <main class="d-flex justify-content-center align-items-center" style="min-height: 80vh; background-color: #f4f4f4;">
     <!-- Contenedor con fondo y borde -->
-    <div class="contenedor-buscador p-4" style="width: 80%; max-width: 600px; border: 0px solid #312a31; border-radius: 10px; background-color: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);">
+    <div class="contenedor-buscador p-4" style="width: 100%; max-width: 600px; border: 0px solid #312a31; border-radius: 10px; background-color: #fff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);">
       <!-- Barra de búsqueda -->
       <div class="mb-3">
         <input type="text" id="searchInput" class="form-control" placeholder="Escribe el nombre de la carta...">
       </div>
       <!-- Botón de búsqueda -->
-      <div class="mb-3">
-        <button class="btn mx-2" style="background-color: #552555cc; color: white;" onclick="searchCard()">Buscar</button>
-        <!-- Botón de "Quiero probar suerte" -->
-        <button class="btn mx-2" style="background-color: #552555cc; color: white;" onclick="probarSuerte()">Quiero probar suerte</button>
+      <div class="mb-3 d-flex justify-content-between">
+        <button class="btn" style="background-color: #552555cc; color: white;" onclick="searchCard()">Buscar</button>
+        <button class="btn" style="background-color: #552555cc; color: white;" onclick="probarSuerte()">Quiero probar suerte</button>
       </div>
     
-        
-      
       <!-- Mensaje de error -->
       <p id="errorMessage" style="color: rgb(160, 0, 0); display: none;">No se encontró la carta.</p>
     </div>
