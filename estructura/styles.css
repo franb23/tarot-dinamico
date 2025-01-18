@@ -20,25 +20,27 @@ body, html {
 main {
   display: flex;
   justify-content: center; /* Centrado horizontal */
-  align-items: center; /* Centrado vertical */
+
   background-color: #f4f4f4 !important; /* Fondo suave para el área principal */
-  min-height: 70vh; /* Menos espacio vertical para que el contenedor quede más cerca del centro */
-  padding: 10px 0; /* Espaciado vertical reducido */
+  min-height: 10vh; /* Menos espacio vertical para que el contenedor quede más cerca del centro */
+  padding: 20px 0; /* Espaciado vertical reducido */
 }
 
 /* Estilo para el contenedor del buscador */
 .contenedor-buscador {
-  width: 100%; /* Ocupa el 100% del ancho disponible */
+  width: 80%; /* Ocupa el 100% del ancho disponible */
   max-width: 600px; /* No más grande de 600px */
+  max-height: 180px;
   padding: 15px; /* Espaciado interno ajustado */
   margin: 0; /* Elimina márgenes adicionales */
   border: 2px solid #2c242c; /* Borde oscuro */
   border-radius: 15px; /* Bordes redondeados */
   background-color: #9e8a7a; /* Fondo cálido para el buscador */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  display: flex;
+  display: block;
   flex-direction: column; /* Organiza los elementos en columna */
-  gap: 15px; /* Espaciado entre los elementos dentro del contenedor */
+  gap: 10px; /* Espaciado entre los elementos dentro del contenedor */
+  padding-bottom: 10px;
 }
 
 /* Barra de búsqueda */
@@ -46,6 +48,8 @@ main {
   border-radius: 8px;
   padding: 10px;
   border: 1px solid #2c242c;
+  position: center;
+  
 }
 
 /* Botones personalizados */
@@ -130,6 +134,7 @@ img {
   width: 100%;  /* Ocupa todo el ancho del contenedor */
   max-width: 900px;  /* Limita el ancho del slider */
   margin: 0 auto;  /* Centra el slider */
+  padding-bottom:10px;
 }
 
 /* Asegura que las imágenes del slider se ajusten bien */
