@@ -812,6 +812,11 @@ function iniciarChat() {
     state = 1;
 }
 
+function reiniciarChat() {
+    
+    state = 1;
+}
+
 function enviarMensaje() {
     const mensajeUsuario = userInput.value.trim();
     if (!mensajeUsuario) return;
@@ -872,7 +877,7 @@ function mostrarTiradas(tirada) {
         mostrarCartasCruzCelta(cartas);
     } else {
         mostrarMensajeConRetraso("Tirada no válida. Elige entre: 1, 2, 3, 4 ó 5.", true);
-    }
+    } reiniciarChat();
 }
 
 function obtenerCartaAleatoria() {
@@ -899,6 +904,8 @@ function mostrarCartaSiNo(carta) {
     `;
     mensaje += agregarAreaSignificado(carta);
     mostrarMensajeConRetraso(mensaje, true);
+    mostrarMensajeConMasRetraso(500, "¿Quieres volver a realizar una tirada? Elige un área: amor, dinero, carrera, salud. ", true);
+    reiniciarChat()
 }
 
 function agregarAreaSignificado(carta) {
@@ -937,6 +944,9 @@ function mostrarCartasPasadoPresenteFuturo(cartas) {
         <p><strong>Significado:</strong> ${cartas[2].significado}</p>
         ${agregarAreaSignificado(cartas[2])}
     `, true);
+
+    mostrarMensajeConMasRetraso(1500, "¿Quieres volver a realizar una tirada? Elige un área: amor, dinero, carrera, salud. ", true);
+    reiniciarChat()
 }
 
 function mostrarCartasEstrella(cartas) {
@@ -979,6 +989,9 @@ function mostrarCartasEstrella(cartas) {
     <p><strong>Significado:</strong> ${cartas[4].significado}</p>
     ${agregarAreaSignificado(cartas[4])}
   `, true);
+
+  mostrarMensajeConMasRetraso(2500, "¿Quieres volver a realizar una tirada? Elige un área: amor, dinero, carrera, salud. ", true);
+  reiniciarChat()
 }
 
 function mostrarCartasElementos(cartas) {
@@ -1012,6 +1025,9 @@ function mostrarCartasElementos(cartas) {
     <p><strong>Significado:</strong> ${cartas[3].significado}</p>
     ${agregarAreaSignificado(cartas[3])}
   `, true);
+
+  mostrarMensajeConMasRetraso(2000, "¿Quieres volver a realizar una tirada? Elige un área: amor, dinero, carrera, salud. ", true);
+  reiniciarChat()
 }
 
 
@@ -1094,6 +1110,9 @@ function mostrarCartasCruzCelta(cartas) {
     <p><strong>Significado:</strong> ${cartas[9].significado}</p>
     ${agregarAreaSignificado(cartas[9])}
   `, true);
+
+  mostrarMensajeConMasRetraso(5000, "¿Quieres volver a realizar una tirada? Elige un área: amor, dinero, carrera, salud. ", true);
+  reiniciarChat()
 }
 
 function checkEnter(event) {
