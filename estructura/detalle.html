@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="styles1.css">
 
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
     .container {
       display: flex;
       justify-content: center;
@@ -17,7 +21,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: 1fr; /* Cambié esto para tener una sola columna */
+      grid-template-columns: 1fr;
       gap: 20px;
     }
     .grid-item {
@@ -29,12 +33,32 @@
   </style>
 </head>
 <body>
-  <header class="text-center mt-5">
-    
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #552555cc;">
+    <a class="navbar-brand" href="index.html">Buscador</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="menu/tiradas.html">Tiradas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/menu/arcanos_mayores.html">Arcanos Mayores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/menu/arcanos_menores.html">Arcanos Menores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/menu/sobre.html">Sobre el Tarot</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div style="height: 50px;"></div>
 
   <main class="d-flex justify-content-center align-items-center" style="min-height: 20vh;">
-    <div class="contenedor-buscador p-4" style="width: 80%; max-width: 600px; border: 0.5px solid #2c242c; border-radius: 10px; background-color: #ebd2be ; box-shadow: 0 0 15px rgba(22, 17, 17, 0.651);">
+    <div id="captureContainer" class="contenedor-buscador p-4" style="width: 80%; max-width: 600px; border: 0.5px solid #2c242c; border-radius: 10px; background-color: #ebd2be; box-shadow: 0 0 15px rgba(22, 17, 17, 0.651);">
       <h1 class="miFuente" id="cardTitle">Cargando...</h1>
       <img id="cardImage" src="" alt="" class="img-fluid" width="300" height="540">
 
@@ -56,11 +80,12 @@
   </main>
 
   <div class="d-flex justify-content-center mt-4">
-    <a href="index.html" class="botonPagPrincipal miFuente1">Volver</a>
+    <button id="downloadButton" class="botonPagPrincipal miFuente btn" style="background-color: #552555cc; color: white; border: none;">Descargar Captura</button>
   </div>
+  <div style="height: 30px;"></div>
+  
 
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script>
     // Función para obtener el parámetro de la URL (nombre de la carta)
     function getCardNameFromURL() {
@@ -72,7 +97,6 @@
     fetch('cartas.json')
       .then(response => response.json())
       .then(cartas => {
-        // Obtener el nombre de la carta desde la URL
         const cardName = getCardNameFromURL();
         const cardDetails = document.getElementById("cardTitle");
         const cardImage = document.getElementById("cardImage");
@@ -97,6 +121,25 @@
       .catch(error => {
         console.error("Error al cargar las cartas: ", error);
       });
+
+    // Capturar y descargar la imagen
+    document.getElementById("downloadButton").addEventListener("click", () => {
+      const captureContainer = document.getElementById("captureContainer");
+
+      // Usar html2canvas para capturar el elemento
+      html2canvas(captureContainer, {
+        scale: 2, // Aumentar la resolución de la captura
+        useCORS: true, // Permitir imágenes cargadas desde otras URLs
+      }).then(canvas => {
+        // Crear un enlace para descargar la imagen
+        const link = document.createElement("a");
+        link.download = "carta_tarot.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+      }).catch(error => {
+        console.error("Error al capturar: ", error);
+      });
+    });
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

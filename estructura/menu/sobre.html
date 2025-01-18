@@ -19,37 +19,11 @@
       line-height: 1.6;
     }
 
-    .tarot-card {
-      width: 100%;
-      border: 1px solid #ddd;
-      margin: 10px 0;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Configuración de la grilla de las cartas */
-  .tarot-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px; /* Separación más pequeña entre las cartas */
-    margin-top: 20px;
-    margin-bottom: 20px; /* Margen para alinear correctamente con el contenido */
-  }
-
-  /* Ajuste de la imagen dentro de la carta */
-  .tarot-card img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover; /* Asegura que las imágenes se ajusten al contenedor sin deformarse */
-  }
-
     h3 {
       color: #552555;
     }
 
-    p {
-      font-size: 1.1em;
-    }
+ 
   </style>
 
 </head>
@@ -57,27 +31,29 @@
 
   <!-- Barra de navegación -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #552555cc;">
-    <a class="navbar-brand" href="../index.html">Tarot</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="tiradas.html">Tiradas personalizadas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="arcanos_mayores.html">Arcanos Mayores</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="arcanos_menores.html">Arcanos Menores</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sobre.html">Sobre el Tarot</a>
-        </li>
-      </ul>
+    <div class="container-fluid"> <!-- Aquí usamos container-fluid -->
+        <a class="navbar-brand" href="../index.html">Buscador</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="tiradas.html">Tiradas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="arcanos_mayores.html">Arcanos Mayores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="arcanos_menores.html">Arcanos Menores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre el Tarot</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+  </nav>  
 
   <!-- Encabezado de la página -->
   <header class="text-center mt-3">

@@ -1,31 +1,134 @@
-/* Contenedor de la grilla */
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    gap: 10px; /* Espacio entre las cartas */
-    justify-items: center; /* Centra las imágenes */
-    align-items: center; /* Centra las imágenes verticalmente */
-    background-color: none;
-  }
-  
-  /* Contenedor de cada carta */
-  .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%; /* No limitamos la altura */
-  }
-  
-  /* Estilo para cada imagen */
-  .tarot-card {
-    width: 100%; /* Ajusta el tamaño al contenedor */
-    max-width: 250px; /* Tamaño máximo de las cartas */
-    object-fit: cover; /* Asegura que las imágenes mantengan su proporción */
-    max-height: 200%;
-  }
-  
-  .tarot-card:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f4f4f4;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #4e4e4e;
+}
+.chat-container {
+  width: 800px; /* Ancho ajustado */
+  height: 550px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 2px solid #7e57c2;
+}
+
+.chatbox {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #9c27b0 transparent;
+}
+
+.chatbox::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: #9c27b0;
+  border-radius: 10px;
+}
+
+.user-message, .bot-message {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  max-width: 80%;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.user-message {
+  background-color: #7e57c2;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+  padding-right: 15px;
+
+}
+
+.bot-message {
+  background-color: #e1bee7;
+  color: #4e4e4e;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #7e57c2;
+  border-radius: 5px;
+  width: 100%; /* Elimina el "calc" que estaba causando el desbordamiento */
+  margin: 10px 10px;
+  outline: none;
+  transition: all 0.3s ease;
+  color: #7e57c2;
+}
+
+input[type="text"]:focus {
+  border-color: #9c27b0;
+}
+
+button {
+  background-color: #9c27b0;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px 10px 10px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #8e24aa;
+}
+
+.bot-message h5 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.bot-message img {
+  max-width: 100%;
+  margin-top: 8px;
+}
+
+.chatbox img {
+  max-width: 50%; /* Máximo ancho de la imagen (ajusta según tus preferencias) */
+  height: auto;   /* Mantener la proporción de la imagen */
+  display: block; /* Asegurar que las imágenes no floten */
+  margin: 0 auto; /* Centrar las imágenes si es necesario */
+  padding-bottom: 10px;
+  padding-top: 10px
+}
+
+/* Intercambiar la alineación de los mensajes */
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatbox .user-message {
+  align-self: flex-end; /* Mensaje de usuario a la derecha */
+}
+
+.chatbox .bot-message {
+  align-self: flex-start; /* Mensaje del bot a la izquierda */
+}

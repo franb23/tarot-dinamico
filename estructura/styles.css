@@ -21,7 +21,7 @@ main {
   display: flex;
   justify-content: center; /* Centrado horizontal */
   align-items: center; /* Centrado vertical */
-  background-color: #ecd9d9; /* Fondo suave para el área principal */
+  background-color: #f4f4f4 !important; /* Fondo suave para el área principal */
   min-height: 70vh; /* Menos espacio vertical para que el contenedor quede más cerca del centro */
   padding: 10px 0; /* Espaciado vertical reducido */
 }
@@ -95,20 +95,6 @@ h2.miFuente {
   color: #2c242c; /* Color oscuro para los títulos */
   font-size: 2rem;
   margin-bottom: 20px;
-}
-
-/* Estilo para el contenedor de la sección "Haz una pregunta" */
-.haz-pregunta-container {
-  display: flex;
-  flex-direction: column; /* Coloca los botones uno debajo del otro */
-  align-items: center; /* Centra los botones en el contenedor */
-  text-align: center; /* Asegura que el texto esté centrado */
-  margin-top: 20px; /* Menos espacio arriba */
-}
-
-/* Espaciado entre los botones */
-.haz-pregunta-container button {
-  margin: 10px 0; /* Separación vertical entre los botones */
 }
 
 /* Estilo para el mensaje de error */
@@ -185,5 +171,4 @@ img {
 .slider-visible img {
     display: block; /* Muestra las imágenes después de inicializar */
 }
-    
 
